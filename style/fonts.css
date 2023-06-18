@@ -1,0 +1,19 @@
+@font-face {
+  font-family: CR;
+  src: url(/fonts/Cardo-Regular.ttf);
+}
+
+@font-face {
+  font-family: IR;
+  src: url(/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: MR;
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: MSB;
+  src: url(/fonts/Montserrat-SemiBold.ttf);
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf.</title>
+    <link rel="shortcut icon" href="./img/icon-site.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="script.js">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,400" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="loaderArea">
+        <div class="loader"></div>
+    </div>
+    <header class="header1">
+        <div class="navbar-main" data-aos="zoom-out-up">
+            <nav class="navbar navbar-expand-lg menu">
+                <div class="container-fluid">
+                    <div class="face-of-site">
+                        <a class="navbar-brand" href="index.html"><img class="icon-site" src="./img/icon-site.png"
+                                alt="">
+                        </a>
+                        <h2 class="name-title">Bookshelf</h2>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="social d-flex gap-2">
+                        <div class="social-icon">
+                            <a href="" class="icon-social">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="" class="icon-social">
+                                <i class="fa fa-telegram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="" class="icon-social">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link menu__item" data-name="Главный" aria-current="page"
+                                    href="index.html">Главный</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu__item" data-name="Продукты" href="catalog.html">Продукты </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu__item active" style="color: #FFCA42!important;"
+                                    data-name="Контакты" href="contact-us.html">Контакты</a>
+                            </li>
+                        </ul>
+                        <button class="btn-navbar">Заказать</button>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <section class="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="login-box">
+                        <h2>Регистрация</h2>
+                        <form>
+                            <div class="user-box">
+                                <input type="text" name="" required="">
+                                <label>Имя</label>
+                            </div>
+                            <div class="user-box">
+                                <input type="password" name="" required="">
+                                <label>Пароль</label>
+                            </div>
+                            <a href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Зарегистрироваться
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-us-block">
+                        <div class="contact-with-us">
+                            <p class="contact-with-us-text"><span class="contact-with-us-text-span">Адрес: </span>
+                                Интернет магазин Bookshelf</p>
+                            <br>
+                            <p class="contact-with-us-text"><span class="contact-with-us-text-span">Почта: </span>
+                                bookshelf@mail.ru</p>
+                            <br>
+                            <p class="contact-with-us-text"><span class="contact-with-us-text-span">Телефон: </span>
+                                (+998) 123 - 4567 - 900</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="end">
+        <div class="container">
+            <div class="row social-end-group">
+                <div class="col-lg-4">
+                    <div class="d-flex gap-1">
+                        <div>
+                            <img src="./img/icon-site.png" alt="">
+                        </div>
+                        <h2 class="name-title-end">Bookshelf</h2>
+                    </div>
+                    <div class="social-end d-flex gap-2">
+                        <div class="social-icon-end">
+                            <a href="" class="icon-social-end">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon-end">
+                            <a href="" class="icon-social-end">
+                                <i class="fa fa-telegram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon-end">
+                            <a href="" class="icon-social-end">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="pages-of-site-end-title">Страницы</h2>
+                    <br>
+                    <div class="pages-of-site-end">
+                        <a class="pages-of-site-end-name" href="index.html"><span
+                                class="pages-of-site-end-name-span">-</span> Главная
+                            страница</a>
+                        <br> <br>
+                        <a class="pages-of-site-end-name" href="catalog.html"><span
+                                class="pages-of-site-end-name-span">-</span> Каталог</a>
+                        <br> <br>
+                        <a class="pages-of-site-end-name" href="contact-us.html"><span
+                                class="pages-of-site-end-name-span">-</span>
+                            Контакты</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="contact-with-us-end-title">Оставайся на связи</h2>
+                    <br>
+                    <div class="contact-with-us-end">
+                        <p class="contact-with-us-end-text"><span class="contact-with-us-end-text-span">Адрес: </span>
+                            Интернет магазин Bookshelf</p>
+                        <br>
+                        <p class="contact-with-us-end-text"><span class="contact-with-us-end-text-span">Почта: </span>
+                            bookshelf@mail.ru</p>
+                        <br>
+                        <p class="contact-with-us-end-text"><span class="contact-with-us-end-text-span">Телефон: </span>
+                            (+998) 123 - 4567 - 900</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <p class="end-text"><span class="end-text-span">© Drafted by</span> DiscoverChaos</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            $preloader = $('.loaderArea'),
+                $loader = $preloader.find('.loader');
+            $loader.fadeOut();
+            $preloader.delay(350).fadeOut('slow');
+        });
+    </script>
+    <script>
+        var mainNav = document.querySelector('.navbar');
+
+        window.onscroll = function () {
+            windowScroll();
+        };
+
+        function windowScroll() {
+            mainNav.classList.toggle("test", mainNav.scrollTop > 50 || document.documentElement.scrollTop > 50);
+        }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

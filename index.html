@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf.</title>
+    <link rel="shortcut icon" href="./img/icon-site.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./script/script.js">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="loaderArea">
+        <div class="loader"></div>
+    </div>
+    <header class="header">
+        <div class="navbar-main" data-aos="zoom-out-up">
+            <nav class="navbar navbar-expand-lg menu">
+                <div class="container header-nav">
+                    <div class="face-of-site" data-aos="fade-right">
+                        <a class="navbar-brand" href="index.html"><img class="icon-site" src="./img/icon-site.png"
+                                alt="">
+                        </a>
+                        <h2 class="name-title">Bookshelf</h2>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="social">
+                        <div class="social-icon">
+                            <a href="" class="icon-social">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="" class="icon-social">
+                                <i class="fa fa-telegram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="" class="icon-social">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link menu__item active" data-name="Главный" aria-current="page"
+                                    style="color: #FFCA42!important;" href="#">Главный</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu__item" data-name="Продукты" href="catalog.html">Продукты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu__item" data-name="Контакты" href="contact-us.html">Контакты</a>
+                            </li>
+                        </ul>
+                        <button class="btn-navbar">Заказать</button>
+                    </div>
+                </div>
+            </nav>
+            <section class="swiper-with-best-books">
+                <h1 class="best-books-title" data-aos="fade-right">Самые продаваемые книги в нашем магазине</h1>
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="container best-books">
+                                <div class="">
+                                    <div class="text-about-best-books">
+                                        <p class="welcome-title">Добро пожаловать на Bookshelf!</p>
+                                        <h2 class="best-books-main-text">Книги От <br> Любимого Автора</h2>
+                                        <p class="best-books-small-text">Мы считаем, что чтение книг необходимо для
+                                            здоровая культура. Это место, где авторы могут общаться с читателями.
+                                        </p>
+                                        <div class="">
+                                            <button class="btn-navbar" data-aos="fade-right">Заказать <i
+                                                    class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                            <a href="">
+                                                <p class="read-text" data-aos="fade-right">Читать демо версию</p>
+                                            </a>
+                                        </div>
+                                        <div class="about-book">
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Страниц:</p>
+                                                    <p class="info-about-book-small-text">450 страниц</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Длительность:</p>
+                                                    <p class="info-about-book-small-text">20 часов</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Рейтинг:</p>
+                                                    <p class="info-about-book-small-text">4.5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=""><img class="popular-book1" src="./img/popular-book1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="container best-books">
+                                <div class="">
+                                    <div class="text-about-best-books">
+                                        <div class="">
+                                            <div
+                                                style="background: #FFCA42; height: 2px; width: 30px; margin-top: 15px;">
+                                            </div>
+                                            <p class="welcome-title">Добро пожаловать на Pages!!!</p>
+                                        </div>
+                                        <h2 class="best-books-main-text">Книги От <br> Любимого Автора</h2>
+                                        <p class="best-books-small-text">Мы считаем, что чтение книг необходимо для
+                                            здоровая культура. Это место, где авторы могут общаться с читателями.
+                                        </p>
+                                        <div class="">
+                                            <button class="btn-navbar" data-aos="fade-right">Заказать <i
+                                                    class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                            <a href="">
+                                                <p class="read-text" data-aos="fade-right">Читать демо версию</p>
+                                            </a>
+                                        </div>
+                                        <div class="about-book">
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Страниц:</p>
+                                                    <p class="info-about-book-small-text">224 страниц</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Длительность:</p>
+                                                    <p class="info-about-book-small-text">9.5 часов</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Рейтинг:</p>
+                                                    <p class="info-about-book-small-text">4.5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=""><img class="popular-book1" src="./img/popular-book2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="container best-books">
+                                <div class="">
+                                    <div class="text-about-best-books">
+                                        <div class="">
+                                            <div
+                                                style="background: #FFCA42; height: 2px; width: 30px; margin-top: 15px;">
+                                            </div>
+                                            <p class="welcome-title">Добро пожаловать на Pages!!!</p>
+                                        </div>
+                                        <h2 class="best-books-main-text">Книги От <br> Любимого Автора</h2>
+                                        <p class="best-books-small-text">Мы считаем, что чтение книг необходимо для
+                                            здоровая культура. Это место, где авторы могут общаться с читателями.
+                                        </p>
+                                        <div class="">
+                                            <button class="btn-navbar" data-aos="fade-right">Заказать <i
+                                                    class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                            <a href="">
+                                                <p class="read-text" data-aos="fade-right">Читать демо версию</p>
+                                            </a>
+                                        </div>
+                                        <div class="about-book">
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Страниц:</p>
+                                                    <p class="info-about-book-small-text">330 страниц</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Длительность:</p>
+                                                    <p class="info-about-book-small-text">11 часов</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Рейтинг:</p>
+                                                    <p class="info-about-book-small-text">4.7/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=""><img class="popular-book1" src="./img/popular-book3.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="container best-books">
+                                <div class="">
+                                    <div class="text-about-best-books">
+                                        <div class="">
+                                            <div
+                                                style="background: #FFCA42; height: 2px; width: 30px; margin-top: 15px;">
+                                            </div>
+                                            <p class="welcome-title">Добро пожаловать на Pages!!!</p>
+                                        </div>
+                                        <h2 class="best-books-main-text">Книги От <br> Любимого Автора</h2>
+                                        <p class="best-books-small-text">Мы считаем, что чтение книг необходимо для
+                                            здоровая культура. Это место, где авторы могут общаться с читателями.
+                                        </p>
+                                        <div class="">
+                                            <button class="btn-navbar" data-aos="fade-right">Заказать <i
+                                                    class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                            <a href="">
+                                                <p class="read-text" data-aos="fade-right">Читать демо версию</p>
+                                            </a>
+                                        </div>
+                                        <div class="about-book">
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Страниц:</p>
+                                                    <p class="info-about-book-small-text">250 страниц</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Длительность:</p>
+                                                    <p class="info-about-book-small-text">10 часов</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-about-book">
+                                                <div class="circle-for-info-book"></div>
+                                                <div class="group-of-info-about-book">
+                                                    <p class="info-about-book-main-text">Рейтинг:</p>
+                                                    <p class="info-about-book-small-text">4.5/5</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=""><img class="popular-book1" src="./img/popular-book4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="container best-books">
+                                <div class="text-about-best-books">
+                                    <div style="background: #FFCA42; height: 2px; width: 30px; margin-top: 15px;">
+                                    </div>
+                                    <p class="welcome-title">Добро пожаловать на Pages!!!</p>
+                                    <h2 class="best-books-main-text">Книги От <br> Любимого Автора</h2>
+                                    <p class="best-books-small-text">Мы считаем, что чтение книг необходимо для
+                                        здоровая культура. Это место, где авторы могут общаться с читателями.
+                                    </p>
+                                    <div class="">
+                                        <button class="btn-navbar" data-aos="fade-right">Заказать<i
+                                                class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        <a href="">
+                                            <p class="read-text" data-aos="fade-right">Читать демо версию</p>
+                                        </a>
+                                    </div>
+                                    <div class="about-book">
+                                        <div class="info-about-book">
+                                            <div class="circle-for-info-book"></div>
+                                            <div class="group-of-info-about-book">
+                                                <p class="info-about-book-main-text">Страниц:</p>
+                                                <p class="info-about-book-small-text">250 страниц</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-about-book">
+                                            <div class="circle-for-info-book"></div>
+                                            <div class="group-of-info-about-book">
+                                                <p class="info-about-book-main-text">Длительность:</p>
+                                                <p class="info-about-book-small-text">10 часов</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-about-book">
+                                            <div class="circle-for-info-book"></div>
+                                            <div class="group-of-info-about-book">
+                                                <p class="info-about-book-main-text">Рейтинг:</p>
+                                                <p class="info-about-book-small-text">4.5/5</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=""><img class="popular-book1" src="./img/popular-book5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+    </header>
+    <h2 class="sale-books-title">Советуем к прочтению</h2>
+    <section class="sale-books container">
+            <div class="sale-book">
+                <img class="sale-book-img" src="./img/sale-book.png" alt="">
+                <div class="sale-book-text">
+                    <h2 class="sale-book-name">Структура Реальности</h2>
+                    <p class="price-sale-book">100.500 сум</p>
+                    <p class="info-about-sale-book">Книга повествующая о теории существования параллельных
+                        вселенных
+                        и о их принципе работы</p>
+                    <div class="type-of-sale-book-group">
+                        <div class="circle-for-info-book"></div>
+                        <p class="type-of-sale-book">В печатном виде</p>
+                    </div>
+                    <button class="order-sale-book" data-aos="fade-right">Заказать</button>
+                </div>
+            </div>
+            <div class="sale-book">
+                <img class="sale-book-img" src="./img/sale-book2.png" alt="">
+                <div class="sale-book-text">
+                    <h2 class="sale-book-name">Начало Бесконечности</h2>
+                    <p class="price-sale-book">150.000 сум</p>
+                    <p class="info-about-sale-book">Продолжение книги "Структура Реальности". В книге дополнены
+                        теории и заменены на более вероятные.</p>
+                    <div class="type-of-sale-book-group">
+                        <div class="circle-for-info-book"></div>
+                        <p class="type-of-sale-book">В печатном виде</p>
+                    </div>
+                    <button class="order-sale-book" data-aos="fade-right">Заказать</button>
+                </div>
+            </div>
+    </section>
+    <section class="author-of-books">
+        <div class="container">
+            <div class="about-author">
+                <div class="card-author" data-aos="fade-right">
+                    <div class="card-front"></div>
+                    <div class="card-back">
+                        <h2 class="biography-of-author">Дэ́вид Элиезер Дойч (англ. David Elieser Deutsch; род. 18 мая
+                            1953, Хайфа, Израиль) —
+                            британский физик-теоретик израильского происхождения, работающий в Оксфордском
+                            университете[1]; один из пионеров в области квантовых вычислений и пропагандист
+                            эвереттовской многомировой интерпретации квантовой механики.
+                            В 2008 году избран членом Лондонского королевского общества[2]. В 1998 году награждён
+                            медалью и премией Дирака, премией в области компьютерных наук (англ. Edge of Computation
+                            Science Prize) в 2005 году, а также медалью Дирака от Международного центра теоретической
+                            физики в Триесте в 2017 году.</h2>
+                    </div>
+                </div>
+                <div class="about-authors-books">
+                    <h2 class="about-authors-books-title">О книгах автора</h2>
+                    <p class="about-authors-books-paragraph">Дэвид Дойч является автором серии научных книг, в которые
+                        заложена теория о существовании
+                        мультивселенной. Его теория всего — объединяющая, ведущая не к сведению всего к физике
+                        элементарных частиц, а к взаимному дополнению и поддержке в пределах мультиверса, многомирового,
+                        вычислительного, эпистемологического и эволюционного принципов.</p>
+                    <div class="info-about-books">
+                        <div class="aspect-of-book">
+                            <h3 class="aspect-of-book-title">02</h3>
+                            <p class="aspect-of-book-paragraph">Выпущено книг:</p>
+                        </div>
+                        <div class="aspect-of-book">
+                            <h3 class="aspect-of-book-title">4.7</h3>
+                            <p class="aspect-of-book-paragraph">Рейтинг книг:</p>
+                        </div>
+                        <div class="aspect-of-book1">
+                            <h3 class="aspect-of-book-title">02</h3>
+                            <p class="aspect-of-book-paragraph">Наград за книги:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order-books">
+        <div class="container order-books-flex">
+                <div class="order-books-text">
+                    <h2 class="order-books-title">Получите книгу сегодня!</h2>
+                    <p class="order-books-paragraph">
+                        Мы считаем, что книжные магазины необходимы для здоровой культуры. Это место, где авторы могут
+                        общаться с читателями.</p>
+                    <button class="custom-btn btn-order"><span class="btn-order-text" data-aos="fade-right">Заказать
+                            сегодня</span></button>
+                </div>
+                <div class="">
+                    <img src="./img/order-books-img.png" alt="" class="order-books-img">
+                </div>
+            </div>
+    </section>
+    <section class="pluses container">
+        <h2 class="pluses-title">Плюсы нашего магазина.</h2>
+            <div class="pluses-chapters">
+                <div class="pluses-chapter">
+                    <div class="all-pluses" data-aos="fade-right">
+                        <div class="pluses-div">
+                            <div class="circle-with-number">
+                                <p class="circle-with-number-text">01</p>
+                            </div>
+                            <p class="pluses-div-text">Качество книг очень высокое. <br> Листы и переплет сделаны из
+                                <br> хорошей
+                                бумаги.
+                            </p>
+                        </div>
+                        <div class="pluses-div">
+                            <div class="circle-with-number">
+                                <p class="circle-with-number-text">02</p>
+                            </div>
+                            <p class="pluses-div-text">Доставка книг воспроизоводиться <br> по всему Узбекистану <br> и
+                                за
+                                кратчайшие сроки.</p>
+                        </div>
+                    </div>
+                    <div class="all-pluses1" data-aos="fade-right">
+                        <div class="pluses-div">
+                            <div class="circle-with-number">
+                                <p class="circle-with-number-text">03</p>
+                            </div>
+                            <p class="pluses-div-text">Выбор книг в нашем магазине <br> очень большой, в
+                                ассортименте имеются <br>
+                                книги самых разных жанров.</p>
+                        </div>
+                        <div class="pluses-div">
+                            <div class="circle-with-number">
+                                <p class="circle-with-number-text">04</p>
+                            </div>
+                            <p class="pluses-div-text">Принимаем индивидуальные заказы <br> в нашу редакции, также
+                                <br> обратная
+                                связь является быстрой.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pluses-chapter">
+                    <img src="./img/pluses-img.png" alt="" class="pluses-img">
+                </div>
+            </div>
+    </section>
+    <section class="free-chapters-of-books">
+        <h2 class="free-chapters-of-books-title">Бесплатные главы популярных книг</h2>
+        <div class="container">
+            <div class="chapters-of-books-group" data-aos="fade-right">
+                <div class="chapters-of-books">
+                    <h2 class="chapters-of-books-title">Глава 1. Богатый папа, бедный папа</h2>
+                    <p class="chapters-of-books-info">Книга о том, как правильно распределять деньги на психологическом
+                        уровне.</p>
+                    <div class="aspects-of-chapter">
+                        <div class="aspect-of-chapter">
+                            <div class="circle-for-info-book"></div>
+                            <p class="aspect-of-chapter-title">Страниц:</p>
+                            <p class="aspect-of-chapter-info">45</p>
+                        </div>
+                        <div class="aspect-of-chapter">
+                            <div class="circle-for-info-book"></div>
+                            <p class="aspect-of-chapter-title">Длительность:</p>
+                            <p class="aspect-of-chapter-info">1.5 часа</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chapters-of-books">
+                    <h2 class="chapters-of-books-title">Глава 1. Шантарам</h2>
+                    <p class="chapters-of-books-info">Основой для книги послужили события жизни автора. Сюжет
+                        разворачивается в Индии.</p>
+                    <div class="aspects-of-chapter">
+                        <div class="aspect-of-chapter">
+                            <div class="circle-for-info-book"></div>
+                            <p class="aspect-of-chapter-title">Страниц:</p>
+                            <p class="aspect-of-chapter-info">30</p>
+                        </div>
+                        <div class="aspect-of-chapter">
+                            <div class="circle-for-info-book"></div>
+                            <p class="aspect-of-chapter-title">Длительность:</p>
+                            <p class="aspect-of-chapter-info">1 час</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chapters-of-books-group">
+                <div class="chapters-of-books">
+                    <h2 class="chapters-of-books-title">Глава 1. Бегущий за ветром</h2>
+                    <p class="chapters-of-books-info">История о мальчике, который потерял свою мать в раннем возрасте и
+                        живет с отцом.</p>
+                    <div class="aspects-of-chapter">
+                        <div class="aspect-of-chapter">
+                            <div class="circle-for-info-book"></div>
+                            <p class="aspect-of-chapter-title">Страниц:</p>
+                            <p class="aspect-of-chapter-info">40</p>
+                        </div>
+                        <div class="aspect-of-chapter">
+                            <div class="circle-for-info-book"></div>
+                            <p class="aspect-of-chapter-title">Длительность:</p>
+                            <p class="aspect-of-chapter-info">1.5 часа</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chapters-of-books">
+                    <h2 class="chapters-of-books-title">Глава 1. После тебя</h2>
+                    <p class="chapters-of-books-info">Продолжение книги "До встречи с тобой", где разворачиваются новые
+                        события.</p>
+                    <div class="aspects-of-chapter">
+                        <div class="aspect-of-chapter">
+                            <div class="circle-for-info-book"></div>
+                            <p class="aspect-of-chapter-title">Страниц:</p>
+                            <p class="aspect-of-chapter-info">50</p>
+                        </div>
+                        <div class="aspect-of-chapter">
+                            <div class="circle-for-info-book"></div>
+                            <p class="aspect-of-chapter-title">Длительность:</p>
+                            <p class="aspect-of-chapter-info">2 часа</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="read-free" data-aos="fade-right" href="#">
+                <span class="read-free-span"></span>
+                <span class="read-free-span"></span>
+                <span class="read-free-span"></span>
+                <span class="read-free-span"></span>
+                <p>Читать бесплатные главы</p>
+            </a>
+            <br>
+            <a class="contact-us-text">Есть вопросы? Напишите нам.</a>
+        </div>
+    </section>
+    <section class="interesting-facts">
+        <div class="container">
+            <h2 class="interesting-facts-title">Интересные факты о книгах</h2>
+            <div class="interesting-facts-card-group">
+                <div class="">
+                    <div class="card interesting-facts-card" data-aos="fade-right" style="width: 22rem;">
+                        <img src="./img/interesting-facts-img1.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text interesting-facts-card-title">Как давно появились книги и из чего они
+                                были сделаны?</p>
+                            <p class="interesting-facts-card-paragraph">Первые книги, судя по археологическим находкам,
+                                появились более двух тысяч лет назад. Они были изготовлены из дерева и воска.</p>
+                            <div class="date-group">
+                                <p class="readmore-fact">Readmore</p>
+                                <p class="date-of-fact">October 6, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card interesting-facts-card" data-aos="fade-right" style="width: 22rem;">
+                        <img src="./img/interesting-facts-img2.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text interesting-facts-card-title">Сколько на самом деле существует книг на
+                                Земле?</p>
+                            <p class="interesting-facts-card-paragraph">Всего на Земле около 130 миллионов книг. Имеется
+                                в виду количество произведений всех видов, а не экземпляров самих книг.</p>
+                            <div class="date-group">
+                                <p class="readmore-fact">Readmore</p>
+                                <p class="date-of-fact">October 6, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="card interesting-facts-card" data-aos="fade-right" style="width: 22rem;">
+                        <img src="./img/interesting-facts-img3.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text interesting-facts-card-title">Какие книги являются самыми популярными?
+                            </p>
+                            <p class="interesting-facts-card-paragraph">Самая популярная книга в мире — Библия. Вторая
+                                по популярности — сборник цитат Мао Цзедуна, а третья —
+                                Властелин Колец.</p>
+                            <div class="date-group">
+                                <p class="readmore-fact">Readmore</p>
+                                <p class="date-of-fact">October 6, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="email-reg-chapter">
+        <div class="container">
+            <div class="email-reg">
+                <h2 class="email-reg-title">Получайте сообщения об обновлении!</h2>
+                <p class="email-reg-info">Подпишитесь со своим почтовым ящиком, чтобы через минуту узнавать <br> о
+                    текущем
+                    обновлении в книжном издании.</p>
+                <div class="email-reg-form">
+                    <input type="text" placeholder="Ваш электронный адрес..." class="email-reg-input"
+                        data-aos="fade-right">
+                    <button data-aos="fade-right" class="custom-btn-reg btn-reg"> <span
+                            class="btn-reg-text">Зарегистрироваться</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="end">
+        <div class="container">
+            <div class="social-end-group" data-aos="fade-right">
+                <div class="">
+                    <div class="icon_plus_title">
+                        <div>
+                            <img src="./img/icon-site.png" alt="">
+                        </div>
+                        <h2 class="name-title-end">Bookshelf</h2>
+                    </div>
+                    <div class="social-end">
+                        <div class="social-icon-end">
+                            <a href="" class="icon-social-end">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon-end">
+                            <a href="" class="icon-social-end">
+                                <i class="fa fa-telegram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon-end">
+                            <a href="" class="icon-social-end">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <h2 class="pages-of-site-end-title">Страницы</h2>
+                    <br>
+                    <div class="pages-of-site-end">
+                        <a class="pages-of-site-end-name" href="index.html"><span
+                                class="pages-of-site-end-name-span">-</span> Главная
+                            страница</a>
+                        <br> <br>
+                        <a class="pages-of-site-end-name" href="catalog.html"><span
+                                class="pages-of-site-end-name-span">-</span> Каталог</a>
+                        <br> <br>
+                        <a class="pages-of-site-end-name" href="contact-us.html"><span
+                                class="pages-of-site-end-name-span">-</span>
+                            Контакты</a>
+                    </div>
+                </div>
+                <div class="">
+                    <h2 class="contact-with-us-end-title">Оставайся на связи</h2>
+                    <br>
+                    <div class="contact-with-us-end">
+                        <p class="contact-with-us-end-text"><span class="contact-with-us-end-text-span">Адрес: </span>
+                            Интернет магазин Bookshelf</p>
+                        <br>
+                        <p class="contact-with-us-end-text"><span class="contact-with-us-end-text-span">Почта: </span>
+                            bookshelf@mail.ru</p>
+                        <br>
+                        <p class="contact-with-us-end-text"><span class="contact-with-us-end-text-span">Телефон: </span>
+                            (+998) 123 - 4567 - 900</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <p class="end-text"><span class="end-text-span">© Drafted by</span> DiscoverChaos</p>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            $preloader = $('.loaderArea'),
+                $loader = $preloader.find('.loader');
+            $loader.fadeOut();
+            $preloader.delay(350).fadeOut('slow');
+        });
+    </script>
+    <script>
+        var mainNav = document.querySelector('.navbar');
+
+        window.onscroll = function () {
+            windowScroll();
+        };
+
+        function windowScroll() {
+            mainNav.classList.toggle("test", mainNav.scrollTop > 50 || document.documentElement.scrollTop > 50);
+        }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

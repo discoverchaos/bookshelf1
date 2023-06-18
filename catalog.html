@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf.</title>
+    <link rel="shortcut icon" href="./img/icon-site.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="script.js">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,400" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="loaderArea">
+        <div class="loader"></div>
+    </div>
+    <header class="header1">
+        <div class="navbar-main" data-aos="zoom-out-up">
+            <nav class="navbar navbar-expand-lg menu">
+                <div class="container-fluid">
+                    <div class="face-of-site">
+                        <a class="navbar-brand" href="index.html"><img class="icon-site" src="./img/icon-site.png"
+                                alt="">
+                        </a>
+                        <h2 class="name-title">Bookshelf</h2>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="social d-flex gap-2">
+                        <div class="social-icon">
+                            <a href="" class="icon-social">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="" class="icon-social">
+                                <i class="fa fa-telegram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="" class="icon-social">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link menu__item" data-name="Главный" aria-current="page"
+                                    href="index.html">Главный</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu__item active" style="color: #FFCA42!important;"
+                                    data-name="Продукты" href="catalog.html">Продукты </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu__item" data-name="Контакты" href="contact-us.html">Контакты</a>
+                            </li>
+                        </ul>
+                        <button class="btn-navbar">Заказать</button>
+                    </div>
+                </div>
+            </nav>
+            <div class="about-catalog">
+                <div class="container">
+                    <div class="about-catalog-text">
+                        <h2 class="about-catalog-title">Мы интернет- <br> магазин "Bookshelf"</h2>
+                        <p class="about-catalog-paragraph">Наш интернет-магазин продает различные книги и доставляет
+                            <br> их по всему
+                            Узбекистану, также мы принимаем индивидуальные заказы.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="catalog">
+        <h2 class="catalog-title">Каталог продуктов</h2>
+        <p class="products-title">Книги</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="container best-books">
+                        <div class="row best-books-row">
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-book1.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Властелин колец</h5>
+                                        <p class="card-text catalog-product-card-info">Автор: Джон Руэл <br> Жанры:
+                                            Боевик, Фэнтези,
+                                            Приключение.</p>
+                                        <p class="price-of-books-catalog">Цена: 150.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-book2.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Война и Мир</h5>
+                                        <p class="card-text catalog-product-card-info">Автор: Лев Толстой <br> Жанры:
+                                            Роман,
+                                            Историческое, Военная проза.</p>
+                                        <p class="price-of-books-catalog">Цена: 150.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-book3.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Дюна</h5>
+                                        <p class="card-text catalog-product-card-info">Автор: Фрэнк Герберт <br> Жанры:
+                                            Приключения,
+                                            Боевик, Фэнтези.</p>
+                                        <p class="price-of-books-catalog">Цена: 150.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container best-books">
+                        <div class="row best-books-row">
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-book4.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Великий Гэтсби</h5>
+                                        <p class="card-text catalog-product-card-info">Автор: Фрэнсис Скотт <br> Жанры:
+                                            Романтика,
+                                            Драма, Мелодрама. </p>
+                                        <p class="price-of-books-catalog">Цена: 150.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-book5.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Алхимик</h5>
+                                        <p class="card-text catalog-product-card-info">Автор: Пауло Коэльо <br> Жанры:
+                                            Роман, Драма,
+                                            <br> Фэнтези.
+                                        </p>
+                                        <p class="price-of-books-catalog">Цена: 150.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-book6.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Повелитель Мух</h5>
+                                        <p class="card-text catalog-product-card-info">Автор: Уильям Голдинг <br> Жанры:
+                                            Роман,
+                                            Аллегория, Подростковая литература.</p>
+                                        <p class="price-of-books-catalog">Цена: 150.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container best-books">
+                        <div class="row best-books-row">
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-book7.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Преступление и наказание</h5>
+                                        <p class="card-text catalog-product-card-info">Автор: Федор Михайлович <br>
+                                            Жанры: Роман,
+                                            Криминал, Философия.</p>
+                                        <p class="price-of-books-catalog">Цена: 150.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-book8.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Грозовой перевал</h5>
+                                        <p class="card-text catalog-product-card-info">Автор: Эмили Бронте <br> Жанры:
+                                            Роман, Трагедия,
+                                            <br> Драма.
+                                        </p>
+                                        <p class="price-of-books-catalog">Цена: 150.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-book9.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Зов Ктулху</h5>
+                                        <p class="card-text catalog-product-card-info">Автор: Говард Лавкрафт <br>
+                                            Жанры: Ужасы,
+                                            Фантастика, История.</p>
+                                        <p class="price-of-books-catalog">Цена: 150.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <p class="products-title">Блокноты</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="container best-books">
+                        <div class="row best-books-row">
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-note.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Блокнот Mustard</h5>
+                                        <p class="price-of-books-catalog">Цена: 50.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-note2.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Блокнот Gray</h5>
+                                        <p class="price-of-books-catalog">Цена: 50.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-note3.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Блокнот Peacock Green</h5>
+                                        <p class="price-of-books-catalog">Цена: 50.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container best-books">
+                        <div class="row best-books-row">
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-note4.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Блокнот Moder Khaki</h5>
+                                        <p class="price-of-books-catalog">Цена: 50.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-note5.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Блокнот Blue</h5>
+                                        <p class="price-of-books-catalog">Цена: 50.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-note6.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Блокнот Pink</h5>
+                                        <p class="price-of-books-catalog">Цена: 50.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container best-books">
+                        <div class="row best-books-row">
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-note7.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Блокнот Light Green</h5>
+                                        <p class="price-of-books-catalog">Цена: 50.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-note8.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Блокнот Dark Green</h5>
+                                        <p class="price-of-books-catalog">Цена: 50.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card catalog-product-card" style="width: 22rem;">
+                                    <img src="./img/catalog-note9.png" class="card-img-top catalog-books-img" alt="">
+                                    <div class="card-body catalog-product-card-body">
+                                        <h5 class="card-title catalog-product-card-title">Блокнот Black</h5>
+                                        <p class="price-of-books-catalog">Цена: 50.000 сум</p>
+                                        <button class="btn-catalog-order">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <section class="our-book-pluses">
+        <div class="container">
+            <h2 class="our-books-pluses-title">Наши преимущества:</h2>
+            <div class="row our-book-pluses-row">
+                <div class="col-lg-3 our-book-pluses-group">
+                    <div class="icon-of-pluses"><i class="fa fa-truck fa-5x" aria-hidden="true"></i></div>
+                    <h2 class="our-book-pluses-group-title">Доставка</h2>
+                    <p class="our-book-pluses-group-info">Доставка является недорогой и осуществляется по всей
+                        Республике.</p>
+                </div>
+                <div class="col-lg-3 our-book-pluses-group">
+                    <div class="icon-of-pluses"><i class="fa fa-book fa-5x" aria-hidden="true"></i></div>
+                    <h2 class="our-book-pluses-group-title">Качество</h2>
+                    <p class="our-book-pluses-group-info">Качество книг очень высокое, так как заказываются у лучших
+                        издательств.</p>
+                </div>
+                <div class="col-lg-3 our-book-pluses-group">
+                    <div class="icon-of-pluses"><i class="fa fa-money fa-5x" aria-hidden="true"></i></div>
+                    <h2 class="our-book-pluses-group-title">Цены</h2>
+                    <p class="our-book-pluses-group-info">В нашем магазине цены являются вполне адекватными и
+                        нормальными.</p>
+                </div>
+                <div class="col-lg-3 our-book-pluses-group">
+                    <div class="icon-of-pluses"><i class="fa fa-database fa-5x" aria-hidden="true"></i></div>
+                    <h2 class="our-book-pluses-group-title">Ассортимент</h2>
+                    <p class="our-book-pluses-group-info">Наш ассортимент очень широк и вы найдете самые различные книги
+                        в нашем интернет-магазине.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="end">
+        <div class="container">
+            <div class="row social-end-group">
+                <div class="col-lg-4">
+                    <div class="d-flex gap-1">
+                        <div>
+                            <img src="./img/icon-site.png" alt="">
+                        </div>
+                        <h2 class="name-title-end">Bookshelf</h2>
+                    </div>
+                    <div class="social-end d-flex gap-2">
+                        <div class="social-icon-end">
+                            <a href="" class="icon-social-end">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon-end">
+                            <a href="" class="icon-social-end">
+                                <i class="fa fa-telegram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon-end">
+                            <a href="" class="icon-social-end">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="pages-of-site-end-title">Страницы</h2>
+                    <br>
+                    <div class="pages-of-site-end">
+                        <a class="pages-of-site-end-name" href="index.html"><span
+                                class="pages-of-site-end-name-span">-</span> Главная
+                            страница</a>
+                        <br> <br>
+                        <a class="pages-of-site-end-name" href="catalog.html"><span
+                                class="pages-of-site-end-name-span">-</span> Каталог</a>
+                        <br> <br>
+                        <a class="pages-of-site-end-name" href="contact-us.html"><span
+                                class="pages-of-site-end-name-span">-</span>
+                            Контакты</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="contact-with-us-end-title">Оставайся на связи</h2>
+                    <br>
+                    <div class="contact-with-us-end">
+                        <p class="contact-with-us-end-text"><span class="contact-with-us-end-text-span">Адрес: </span>
+                            Интернет магазин Bookshelf</p>
+                        <br>
+                        <p class="contact-with-us-end-text"><span class="contact-with-us-end-text-span">Почта: </span>
+                            bookshelf@mail.ru</p>
+                        <br>
+                        <p class="contact-with-us-end-text"><span class="contact-with-us-end-text-span">Телефон: </span>
+                            (+998) 123 - 4567 - 900</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <p class="end-text"><span class="end-text-span">© Drafted by</span> DiscoverChaos</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            $preloader = $('.loaderArea'),
+                $loader = $preloader.find('.loader');
+            $loader.fadeOut();
+            $preloader.delay(350).fadeOut('slow');
+        });
+    </script>
+    <script>
+        var mainNav = document.querySelector('.navbar');
+
+        window.onscroll = function () {
+            windowScroll();
+        };
+
+        function windowScroll() {
+            mainNav.classList.toggle("test", mainNav.scrollTop > 50 || document.documentElement.scrollTop > 50);
+        }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
